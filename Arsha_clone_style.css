@@ -1,0 +1,171 @@
+html{
+    background-color: #fff;
+    color: white;
+}
+
+header{
+    background-color: white;
+    height: 65px;
+}
+
+main{
+    background-color: #37517e;
+    height: 1000px;
+    color: white;
+
+}
+
+.main1{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main1 div{
+    margin: 12px;
+
+
+}
+
+.list span {
+    margin: 13px;
+    
+}
+
+.logo{
+    position: absolute;
+    top: 18px;
+    left: 10px;
+}
+
+.title{
+    color: #18477d;
+    font-size: 23px;
+    font-weight: bold;
+    vertical-align: middle;
+
+    position: absolute;
+    top: 18px;
+    left: 45px;
+}
+
+.title1{
+    color: #00a6eb;
+    font-size: 23px;
+    font-weight: bold;
+    vertical-align: middle;
+
+    position: absolute;
+    top: 18px;
+    left: 180px;
+}
+
+.img{
+    max-width: 24px;
+    max-height: 24px;    
+
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.img1{
+    max-width: 22px;
+    max-height: 22px;
+
+    position: absolute;
+    top: 20px;
+    left: 335px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.img2{
+    max-width: 23px;
+    max-height: 23px;
+
+    position: absolute;
+    top: 20px;
+    left: 385px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+
+    fill: white;
+}
+
+.img:hover{ background: #00a6eb;}
+.img1:hover{ background: #00a6eb;}
+.img2:hover{ background: #00a6eb;}
+
+
+.go{
+    box-sizing: border-box;
+    background-color: transparent;
+
+    border-bottom: 3px solid #00a6eb;
+    border-top: 3px solid #00a6eb;
+    border-right: 3px solid #00a6eb;
+    border-left: 3px solid #00a6eb;
+
+    padding: 7px;
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.go:hover {
+    background: #00a6eb;
+}
+
+.go1{
+    box-sizing: border-box;
+    background-color: #00a6eb;
+
+    padding: 7px;
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.go1:hover {
+    background: #0284bc;
+}
+
+.main2{
+    position: absolute;
+    top: 470px;
+    left: 530px;
+}
+
+.hero{
+
+    max-width: 630px;
+    height: auto;
+    animation: motion 1.5s linear 0s infinite alternate;
+
+    position: absolute;
+    top: 350px;
+    right: 670px;
+}
+
+@keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 15px;}
+  }
+
+
+form{
+    display: flex;
+    flex-direction: row-reverse;
+}
